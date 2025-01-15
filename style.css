@@ -494,7 +494,7 @@ main {
     }
 
     .menu {
-        height: 200vh;
+        height: 250vh;
     }
 
     .menu-details {
@@ -523,7 +523,6 @@ main {
 
     .about-container {
         display: inline-block;
-        width: 100%;
     }
 
     .about-grid {
