@@ -475,6 +475,10 @@ main {
 
 @media screen and (max-width:455px) {
 
+    body {
+        overflow-x: hidden;
+    }
+
     .menu {
         height: 170vh;
     }
