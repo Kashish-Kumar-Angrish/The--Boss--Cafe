@@ -477,6 +477,7 @@ main {
 
     body {
         overflow-x: hidden;
+        width: 100vw;
     }
 
     .menu {
@@ -588,5 +589,16 @@ main {
         display: inline;
     }
 
-    .featured img {}
+    .pera2 {
+        display: inline;
+    }
+
+    .info h2 {
+        margin-top: 1.5rem;
+    }
+
+    .info li {
+        padding-left: 1rem;
+        list-style: disc;
+    }
 }
