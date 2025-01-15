@@ -521,6 +521,11 @@ main {
         padding-top: 0.3rem;
     }
 
+    .about-container {
+        display: inline-block;
+        width: 100%;
+    }
+
     .about-grid {
         display: flex;
         flex-direction: column;
