@@ -482,6 +482,7 @@ main {
 
     .main {
         display: inline-block;
+        width: 100vw;
     }
 
     #LOGO {
