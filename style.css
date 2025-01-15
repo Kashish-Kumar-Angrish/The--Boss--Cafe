@@ -277,7 +277,7 @@ main {
 }
 
 .featured-drinks {
-    background-color: white;
+    background-color: purple;
     padding: 3rem;
     margin-bottom: 5rem;
     display: flex;
@@ -480,6 +480,23 @@ main {
         width: 100vw;
     }
 
+    .main {
+        display: inline-block;
+    }
+
+    #LOGO {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #name {
+        font-size: 3rem;
+    }
+
+    .motive p {
+        font-size: 0.9rem;
+    }
+
     .menu {
         height: 200vh;
     }
@@ -595,12 +612,12 @@ main {
     }
 
     .featureddrinks-grid {
-        display: flex;
+        display: inline-block;
         flex-direction: column;
     }
 
     .featureddrinks-heading h1 {
-        font-size: 2.5rem;
+        font-size: 3.5rem;
     }
 
     .drinks-grid h1 {
