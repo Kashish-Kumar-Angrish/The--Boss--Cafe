@@ -37,6 +37,10 @@ li {
     list-style: none;
 }
 
+.image {
+    display: none;
+}
+
 main {
     position: relative;
 }
@@ -469,10 +473,10 @@ main {
 
 
 
-@media screen and (max-width:760px) {
+@media screen and (max-width:455px) {
 
     .menu {
-        height: 150vh;
+        height: 170vh;
     }
 
     .menu-details {
@@ -483,6 +487,20 @@ main {
         border: 1px solid black;
         border-radius: 20px;
         margin-bottom: 1rem;
+    }
+
+    #last-detail {
+        padding-left: 1rem;
+    }
+
+    #nav-list {
+        display: none;
+    }
+
+    .image {
+        display: flex;
+        height: 1.5rem;
+        padding-top: 0.3rem;
     }
 
     .about-grid {
@@ -497,18 +515,65 @@ main {
         border-bottom: 1px solid black;
     }
 
+    .grid1 p {
+        font-size: 1.2rem;
+    }
+
+    .grid2 p {
+        font-size: 1.2rem;
+    }
+
+    .grid3 p {
+        font-size: 1.2rem;
+    }
+
+    .story-grid1-2-3 p {
+        padding-left: 1rem;
+    }
+
     .our-story img {
         width: 90%;
         height: 60%;
+        margin-left: 2rem;
     }
 
     .our-story {
-        display: block;
+        display: inline-block;
+        padding-left: 1.5rem;
+    }
+
+    .our-storygrid {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .story {
+        display: grid;
+        margin-bottom: 0.5rem;
+    }
+
+    .num1,
+    .head1 {
+        margin-right: 6rem;
+        margin-left: 0;
+    }
+
+    .our-storyhead {
+        padding: 0;
+    }
+
+    .our-storyheading h1 {
+        font-size: 2rem;
     }
 
     .story-grid1-2-3 {
         border-bottom: 1px solid black;
         padding-bottom: 1rem;
+        padding-left: 0rem;
+    }
+
+    .story-grid1-2-3 p {
+        font-size: 1.5rem;
     }
 
     .featured {
