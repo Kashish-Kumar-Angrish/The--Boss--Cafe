@@ -475,11 +475,6 @@ main {
 
 @media screen and (max-width:455px) {
 
-    body {
-        overflow-x: hidden;
-        width: 100vw;
-    }
-
     .main {
         display: inline-block;
         width: 100vw;
@@ -534,6 +529,10 @@ main {
         border: none;
     }
 
+    .about-heading h1 {
+        font-size: 3.5rem;
+    }
+
     .grid1,
     .grid2,
     .grid3 {
@@ -542,15 +541,15 @@ main {
     }
 
     .grid1 p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .grid2 p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .grid3 p {
-        font-size: 1.2rem;
+        font-size: 1.5rem;
     }
 
     .story-grid1-2-3 p {
