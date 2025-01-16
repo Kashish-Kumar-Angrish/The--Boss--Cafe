@@ -645,6 +645,7 @@ main {
 
     .drinks-grid {
         margin-bottom: 5rem;
+        padding-right: 0.5rem;
     }
 
     .drinks-grid h1 {
