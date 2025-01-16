@@ -621,7 +621,7 @@ main {
 
     .featured-drinks {
         padding: 0;
-        background-color: gray;
+        background-color: yellow;
     }
 
     .featureddrinks-details {
@@ -648,7 +648,7 @@ main {
     }
 
     .drinks-grid p {
-        font-size: 1.3rem;
+        font-size: 1.5rem;
         width: 12rem;
         height: 10rem;
     }
