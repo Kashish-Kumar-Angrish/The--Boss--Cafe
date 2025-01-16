@@ -525,7 +525,7 @@ main {
 
     .about-container {
         display: inline-block;
-        width: 100%;
+        width: 150%;
     }
 
     .about-grid {
