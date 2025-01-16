@@ -644,7 +644,7 @@ main {
     }
 
     .drinks-grid {
-        padding: auto;
+        padding-bottom: 1rem;
     }
 
     .drinks-grid h1 {
