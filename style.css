@@ -643,6 +643,10 @@ main {
         font-size: 3.5rem;
     }
 
+    .drinks-grid {
+        padding: auto;
+    }
+
     .drinks-grid h1 {
         font-size: 2rem;
     }
