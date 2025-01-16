@@ -525,7 +525,6 @@ main {
 
     .about-container {
         display: inline-block;
-        width: 90%;
     }
 
     .about-grid {
@@ -572,7 +571,6 @@ main {
     .our-story {
         display: inline-block;
         padding-left: 1.5rem;
-        width: 100%;
     }
 
     .our-storygrid {
