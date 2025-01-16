@@ -648,6 +648,10 @@ main {
         font-size: 2rem;
     }
 
+    .drinks-grid {
+        padding-bottom: 1rem;
+    }
+
     .drinks-grid p {
         font-size: 1.5rem;
         width: 12rem;
