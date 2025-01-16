@@ -648,12 +648,8 @@ main {
         font-size: 2rem;
     }
 
-    .drinks-grid {
-        padding-bottom: 1rem;
-    }
-
     .drinks-grid p {
-        font-size: 1.5rem;
+        font-size: 1.3rem;
         width: 12rem;
         height: 10rem;
     }
@@ -676,7 +672,7 @@ main {
 
     .pera p {
         padding-left: 0rem;
-        font-size: 1.5rem;
+        font-size: 1.2rem;
     }
 
     .pera2 {
