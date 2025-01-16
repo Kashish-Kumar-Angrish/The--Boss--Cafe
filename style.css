@@ -622,7 +622,7 @@ main {
     .featured-drinks {
         padding: 0;
         background-color: gray;
-        width: 110vw;
+        width: 150%;
     }
 
     .featureddrinks-details {
