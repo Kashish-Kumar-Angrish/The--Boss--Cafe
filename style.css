@@ -526,7 +526,6 @@ main {
     .about-container {
         display: flex;
         flex-direction: column;
-        width: 90%;
     }
 
     .about-grid {
@@ -535,7 +534,7 @@ main {
         justify-content: center;
         align-items: center;
         border: none;
-        width: 90%;
+        width: 80%;
     }
 
     .about-heading h1 {
