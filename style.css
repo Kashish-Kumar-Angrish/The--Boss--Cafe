@@ -620,21 +620,23 @@ main {
     }
 
     .featured-drinks {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
         padding-left: 1rem;
     }
 
-    .featured {
-        display: flex;
-        flex-direction: column;
+    .featureddrinks-details {
+        display: inline-block;
     }
 
     .featureddrinks-grid {
         display: inline-block;
         flex-direction: column;
+    }
+
+    .featured {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
 
     .featureddrinks-heading h1 {
