@@ -525,7 +525,7 @@ main {
 
     .about-container {
         display: inline-block;
-        width: 80%;
+        width: 90%;
     }
 
     .about-grid {
@@ -564,7 +564,7 @@ main {
     }
 
     .our-story img {
-        width: 100%;
+        width: 90%;
         height: 60%;
         margin-left: 2rem;
     }
