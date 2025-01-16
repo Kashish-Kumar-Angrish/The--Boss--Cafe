@@ -620,7 +620,8 @@ main {
     }
 
     .featured-drinks {
-        padding-left: 1rem;
+        padding-left: 0rem;
+        padding-right: 0;
     }
 
     .featureddrinks-details {
@@ -635,8 +636,7 @@ main {
     .featured {
         display: flex;
         flex-direction: column;
-        justify-content: center;
-        align-items: center;
+        padding-left: 1rem;
     }
 
     .featureddrinks-heading h1 {
