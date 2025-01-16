@@ -524,7 +524,8 @@ main {
     }
 
     .about-container {
-        display: inline-block;
+        display: flex;
+        flex-direction: column;
     }
 
     .about-grid {
@@ -548,14 +549,23 @@ main {
 
     .grid1 p {
         font-size: 1.5rem;
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
     }
 
     .grid2 p {
         font-size: 1.5rem;
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
     }
 
     .grid3 p {
         font-size: 1.5rem;
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
     }
 
     .story-grid1-2-3 p {
@@ -571,7 +581,6 @@ main {
     .our-story {
         display: inline-block;
         padding-left: 1.5rem;
-        background-color: orchid;
     }
 
     .our-storygrid {
