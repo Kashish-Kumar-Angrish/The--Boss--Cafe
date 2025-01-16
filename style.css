@@ -535,7 +535,7 @@ main {
         justify-content: center;
         align-items: center;
         border: none;
-        width: 90vw;
+        width: 90%;
     }
 
     .about-heading h1 {
