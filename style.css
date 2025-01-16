@@ -620,8 +620,7 @@ main {
     }
 
     .featured-drinks {
-        padding-left: 0rem;
-        padding-right: 0;
+        padding: 0;
     }
 
     .featureddrinks-details {
@@ -629,7 +628,7 @@ main {
     }
 
     .featureddrinks-grid {
-        display: inline-block;
+        display: flex;
         flex-direction: column;
     }
 
@@ -655,7 +654,7 @@ main {
 
     #drink-img {
         height: 100%;
-        width: 80%;
+        width: 90%;
 
     }
 
