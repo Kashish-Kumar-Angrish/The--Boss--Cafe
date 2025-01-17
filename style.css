@@ -690,6 +690,7 @@ main {
     .info li {
         padding-left: 1rem;
         list-style: disc;
+        font-size: 2rem;
     }
 
     .heading h1 {
