@@ -95,8 +95,6 @@ main {
 
 .menu {
     margin-top: .5rem;
-    background-color: #D9AFD9;
-    background-image: linear-gradient(0deg, #D9AFD9 0%, #97D9E1 100%);
     padding-left: 6rem;
     padding-right: 6rem;
 }
@@ -141,7 +139,6 @@ main {
 
 .about-container {
     margin-top: 5rem;
-    background-color: orange;
     padding-left: 6rem;
     padding-right: 6rem;
     padding-bottom: 5rem;
@@ -224,7 +221,6 @@ main {
 }
 
 .our-story {
-    background-color: #01fe87;
     margin-top: 4rem;
     display: flex;
     padding-left: 6rem;
@@ -347,7 +343,6 @@ main {
 }
 
 .testimonials {
-    background-color: #01fe87;
     padding-left: 6rem;
     padding-right: 6rem;
     margin-bottom: 5rem;
@@ -406,7 +401,6 @@ main {
 }
 
 .contact-us {
-    background-color: #D9AFD9;
     padding-left: 5rem;
     padding-bottom: 5rem;
     padding-right: 5rem;
@@ -625,7 +619,6 @@ main {
 
     .featured-drinks {
         padding: 0;
-        background-color: yellow;
     }
 
     .featureddrinks-details {
