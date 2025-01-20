@@ -42,7 +42,7 @@ li {
 }
 
 @media screen and (max-width:730px) {
-    .nav-container {
+    #heading {
         max-width: 100%;
     }
 
