@@ -41,6 +41,36 @@ li {
     display: none;
 }
 
+@media screen and (max-width:730px) {
+    #nav-list {
+        display: none;
+    }
+
+    .image {
+        display: flex;
+        height: 1.5rem;
+        padding-top: 0.3rem;
+    }
+
+    .main {
+        display: inline-block;
+        width: 100vw;
+    }
+
+    #LOGO {
+        width: 100%;
+        object-fit: cover;
+    }
+
+    #name {
+        font-size: 3rem;
+    }
+
+    .motive p {
+        font-size: 0.9rem;
+    }
+}
+
 main {
     position: relative;
 }
@@ -135,6 +165,33 @@ main {
 
 #Explore {
     margin-bottom: 3rem;
+}
+
+@media screen and (max-width:840px) {
+    .menu {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 250vh;
+    }
+
+    .menu-details {
+        display: table;
+        text-align: center;
+    }
+
+    .menudetails1 {
+        border: 1px solid black;
+        border-radius: 20px;
+        margin-bottom: 1rem;
+    }
+
+    #last-detail {
+        padding-left: 1rem;
+    }
+
+
 }
 
 .about-container {
@@ -472,52 +529,9 @@ main {
 
 @media screen and (max-width:455px) {
 
-    .main {
-        display: inline-block;
-        width: 100vw;
-    }
 
-    #LOGO {
-        width: 100%;
-        object-fit: cover;
-    }
 
-    #name {
-        font-size: 3rem;
-    }
 
-    .motive p {
-        font-size: 0.9rem;
-    }
-
-    .menu {
-        height: 250vh;
-    }
-
-    .menu-details {
-        display: table;
-        text-align: center;
-    }
-
-    .menudetails1 {
-        border: 1px solid black;
-        border-radius: 20px;
-        margin-bottom: 1rem;
-    }
-
-    #last-detail {
-        padding-left: 1rem;
-    }
-
-    #nav-list {
-        display: none;
-    }
-
-    .image {
-        display: flex;
-        height: 1.5rem;
-        padding-top: 0.3rem;
-    }
 
     .about-container {
         display: flex;
