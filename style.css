@@ -747,6 +747,16 @@ main {
         width: 100vw;
     }
 
+    .testimonials {
+        margin: 0;
+        padding: 0;
+        padding-left: 1rem;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+
     .heading {
         width: 100vw;
     }
@@ -758,6 +768,12 @@ main {
     .testimonial-details {
         display: flex;
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .testimonial p {
+        padding: 0;
     }
 }
 
