@@ -628,6 +628,48 @@ main {
     }
 }
 
+@media screen and (max-width:455px) {
+    .featured-drinks {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+        margin: 0;
+    }
+
+    .featured1 {
+        margin: 0;
+        padding: 0;
+    }
+
+    .featureddrinks-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        margin: 0;
+    }
+
+    .featureddrinks-heading {
+        padding: 0;
+        margin-bottom: 1rem;
+    }
+
+    .drinks-grid {
+        width: 100vw;
+        padding-left: 8rem;
+        box-sizing: border-box;
+        margin-bottom: 0;
+    }
+
+    .drinks-grid h1 {
+        font-size: 2rem;
+    }
+
+    .drinks-grid P {
+        width: 20rem;
+    }
+}
+
 .testimonials {
     padding-left: 6rem;
     padding-right: 6rem;
@@ -694,6 +736,29 @@ main {
 
 .testimonial p {
     color: var(--text-color);
+}
+
+@media screen and (max-width:800px) {
+    .testimonial {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100vw;
+    }
+
+    .heading {
+        width: 100vw;
+    }
+
+    .heading h1 {
+        font-size: 3.2rem;
+    }
+
+    .testimonial-details {
+        display: flex;
+        flex-direction: column;
+    }
 }
 
 .contact-us {
@@ -772,7 +837,7 @@ main {
 
 
 
-@media screen and (max-width:455px) {
+@media screen and (max-width:800px) {
 
 
 
@@ -807,11 +872,6 @@ main {
 
     .heading h1 {
         font-size: 3rem;
-    }
-
-    .testimonial-details {
-        display: flex;
-        flex-direction: column;
     }
 
     .contact-us {
