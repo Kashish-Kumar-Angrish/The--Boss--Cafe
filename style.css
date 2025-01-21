@@ -28,7 +28,7 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     margin: 1rem;
 }
 
@@ -216,7 +216,6 @@ main {
         display: flex;
         flex-direction: column;
         align-items: center;
-        padding-left: 35%;
     }
 
     .menu-details {
@@ -332,7 +331,6 @@ main {
 @media screen and (max-width:840px) {
     .about-container {
         width: 100vw;
-        margin-left: 10rem;
         display: flex;
         flex-direction: column;
         align-items: center;
@@ -446,6 +444,64 @@ main {
     color: var(--Heading-color);
 }
 
+
+@media screen and (max-width:840px) {
+    .our-story {
+        display: flex;
+        flex-direction: column;
+        margin: 0;
+        padding: 0;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .story-grid1-2-3 p {
+        padding-left: 1rem;
+    }
+
+    .our-story img {
+        width: 100vw;
+        height: 30%;
+        margin-left: 5rem;
+    }
+
+
+
+    .our-storygrid {
+        display: grid;
+        gap: 2rem;
+    }
+
+    .story {
+        display: grid;
+        margin-bottom: 0.5rem;
+    }
+
+    .num1,
+    .head1 {
+        margin-right: 6rem;
+        margin-left: 0;
+    }
+
+    .our-storyhead {
+        padding: 0;
+    }
+
+    .our-storyheading h1 {
+        font-size: 3.5rem;
+    }
+
+    .story-grid1-2-3 {
+        border-bottom: 1px solid black;
+        padding-bottom: 1rem;
+        padding-left: 0rem;
+    }
+
+    .story-grid1-2-3 p {
+        font-size: 1.5rem;
+    }
+}
+
 .featured-drinks {
     padding: 3rem;
     margin-bottom: 5rem;
@@ -512,6 +568,64 @@ main {
     font-size: 2rem;
     font-weight: lighter;
     color: var(--text-color);
+}
+
+@media screen and (max-width:840px) {
+    .featureddrinks-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .featureddrinks-details {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .featured-drinks {
+        padding: 0;
+        margin: 0;
+    }
+
+    .featured {
+        display: flex;
+        flex-direction: column;
+        padding-left: 1rem;
+    }
+
+    .featureddrinks-grid {
+        margin-left: 5rem;
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+    }
+
+    .featureddrinks-heading h1 {
+        font-size: 3.5rem;
+    }
+
+    .drinks-grid {
+        margin-bottom: 5rem;
+        padding-right: 0.5rem;
+    }
+
+    .drinks-grid h1 {
+        font-size: 3rem;
+    }
+
+    .drinks-grid p {
+        font-size: 1.5rem;
+        width: 12rem;
+        height: 10rem;
+    }
+
+    #drink-img {
+        height: 100%;
+        width: 90%;
+        object-fit: cover;
+        margin: 0;
+        padding: 0;
+    }
 }
 
 .testimonials {
@@ -662,101 +776,6 @@ main {
 
 
 
-
-
-
-    .story-grid1-2-3 p {
-        padding-left: 1rem;
-    }
-
-    .our-story img {
-        width: 90%;
-        height: 60%;
-        margin-left: 2rem;
-    }
-
-    .our-story {
-        display: inline-block;
-        padding-left: 1.5rem;
-    }
-
-    .our-storygrid {
-        display: grid;
-        gap: 2rem;
-    }
-
-    .story {
-        display: grid;
-        margin-bottom: 0.5rem;
-    }
-
-    .num1,
-    .head1 {
-        margin-right: 6rem;
-        margin-left: 0;
-    }
-
-    .our-storyhead {
-        padding: 0;
-    }
-
-    .our-storyheading h1 {
-        font-size: 3.5rem;
-    }
-
-    .story-grid1-2-3 {
-        border-bottom: 1px solid black;
-        padding-bottom: 1rem;
-        padding-left: 0rem;
-    }
-
-    .story-grid1-2-3 p {
-        font-size: 1.5rem;
-    }
-
-    .featured-drinks {
-        padding: 0;
-    }
-
-    .featureddrinks-details {
-        display: inline-block;
-    }
-
-    .featureddrinks-grid {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .featured {
-        display: flex;
-        flex-direction: column;
-        padding-left: 1rem;
-    }
-
-    .featureddrinks-heading h1 {
-        font-size: 3.5rem;
-    }
-
-    .drinks-grid {
-        margin-bottom: 5rem;
-        padding-right: 0.5rem;
-    }
-
-    .drinks-grid h1 {
-        font-size: 2rem;
-    }
-
-    .drinks-grid p {
-        font-size: 1.5rem;
-        width: 12rem;
-        height: 10rem;
-    }
-
-    #drink-img {
-        height: 100%;
-        width: 90%;
-
-    }
 
     .contact-us {
         padding-left: 2rem;
