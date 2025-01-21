@@ -27,7 +27,7 @@ body {
 
 .nav-container {
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 1rem;
 }
 
@@ -59,6 +59,18 @@ li {
     display: none;
 }
 
+@media screen and (max-width:650px) {
+
+    .main {
+        width: 100vw;
+    }
+
+    .main img {
+        width: 100%;
+    }
+
+}
+
 @media screen and (max-width:730px) {
     #heading {
         max-width: 100vw;
@@ -77,11 +89,6 @@ li {
     .main {
         display: inline-block;
         width: 100vw;
-    }
-
-    #LOGO {
-        width: 100%;
-        object-fit: cover;
     }
 
     #name {
@@ -200,7 +207,6 @@ main {
         flex-direction: column;
         justify-content: center;
         align-items: center;
-        height: 250vh;
     }
 
     .menu-details {
@@ -310,6 +316,56 @@ main {
     margin: 1rem;
     padding-left: 2.5rem;
     color: var(--text-color);
+}
+
+@media screen and (max-width:840px) {
+    .about-container {
+        display: flex;
+        flex-direction: column;
+        width: 105%;
+    }
+
+    .about-grid {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        border: none;
+        width: 90vw;
+    }
+
+    .about-heading h1 {
+        font-size: 3.5rem;
+    }
+
+    .grid1,
+    .grid2,
+    .grid3 {
+        border: none;
+        border-bottom: 1px solid black;
+    }
+
+    .grid1 p {
+        font-size: 1.5rem;
+        width: 100%;
+        height: 100%;
+        padding-left: 0;
+    }
+
+    .grid2 p {
+        font-size: 1.5rem;
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+
+    .grid3 p {
+        font-size: 1.5rem;
+        height: 100%;
+        width: 100%;
+        padding-left: 0;
+    }
+
 }
 
 .our-story {
@@ -590,52 +646,6 @@ main {
 
 
 
-    .about-container {
-        display: flex;
-        flex-direction: column;
-        width: 105%;
-    }
-
-    .about-grid {
-        display: flex;
-        flex-direction: column;
-        justify-content: center;
-        align-items: center;
-        border: none;
-        width: 90vw;
-    }
-
-    .about-heading h1 {
-        font-size: 3.5rem;
-    }
-
-    .grid1,
-    .grid2,
-    .grid3 {
-        border: none;
-        border-bottom: 1px solid black;
-    }
-
-    .grid1 p {
-        font-size: 1.5rem;
-        width: 100%;
-        height: 100%;
-        padding-left: 0;
-    }
-
-    .grid2 p {
-        font-size: 1.5rem;
-        height: 100%;
-        width: 100%;
-        padding-left: 0;
-    }
-
-    .grid3 p {
-        font-size: 1.5rem;
-        height: 100%;
-        width: 100%;
-        padding-left: 0;
-    }
 
     .story-grid1-2-3 p {
         padding-left: 1rem;
