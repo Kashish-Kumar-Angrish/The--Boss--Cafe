@@ -19,6 +19,7 @@ body {
     overflow-x: hidden;
     height: 100vh;
     background-color: var(--bg-color);
+    overflow-x: hidden;
 }
 
 #heading {
@@ -60,6 +61,12 @@ li {
 }
 
 @media screen and (max-width:650px) {
+
+    body {
+        display: flex;
+        flex-direction: column;
+        overflow-x: hidden;
+    }
 
     .main {
         width: 100vw;
@@ -203,10 +210,13 @@ main {
 
 @media screen and (max-width:840px) {
     .menu {
+        max-width: 100vw;
+        padding: 0;
+        margin: 0;
         display: flex;
         flex-direction: column;
-        justify-content: center;
         align-items: center;
+        padding-left: 35%;
     }
 
     .menu-details {
@@ -216,6 +226,7 @@ main {
 
     .menudetails1 {
         border: 1px solid black;
+        width: 50vw;
         border-radius: 20px;
         margin-bottom: 1rem;
     }
@@ -245,7 +256,7 @@ main {
 }
 
 .about-heading h1 {
-    font-size: 4rem;
+    font-size: 5rem;
     color: var(--Heading-color);
 }
 
@@ -320,9 +331,12 @@ main {
 
 @media screen and (max-width:840px) {
     .about-container {
+        width: 100vw;
+        margin-left: 10rem;
         display: flex;
         flex-direction: column;
-        width: 105%;
+        align-items: center;
+
     }
 
     .about-grid {
@@ -331,7 +345,9 @@ main {
         justify-content: center;
         align-items: center;
         border: none;
-        width: 90vw;
+        padding: 0;
+        padding-right: 2.5rem;
+        margin: 0;
     }
 
     .about-heading h1 {
@@ -365,6 +381,8 @@ main {
         width: 100%;
         padding-left: 0;
     }
+
+
 
 }
 
