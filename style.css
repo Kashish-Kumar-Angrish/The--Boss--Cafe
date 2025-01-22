@@ -70,15 +70,17 @@ li {
 
     .main {
         width: 100vw;
+        margin: 0;
+        padding: 0;
     }
 
     .main img {
-        width: 100%;
+        width: 100vw;
     }
 
     #LOGO {
         width: 100vw;
-        margin-left: 2rem;
+        margin-left: 0rem;
     }
 
 }
