@@ -68,6 +68,11 @@ li {
         overflow-x: hidden;
     }
 
+    .nav-container {
+        display: flex;
+        justify-content: space-between;
+    }
+
     .main {
         width: 100vw;
         margin: 0;
