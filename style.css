@@ -233,6 +233,7 @@ main {
     .menu-details {
         display: table;
         text-align: center;
+        padding-left: 3rem;
     }
 
     .menudetails1 {
