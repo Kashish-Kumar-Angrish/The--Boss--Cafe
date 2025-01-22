@@ -76,6 +76,11 @@ li {
         width: 100%;
     }
 
+    #LOGO {
+        width: 100vw;
+        margin-left: 4rem;
+    }
+
 }
 
 @media screen and (max-width:730px) {
