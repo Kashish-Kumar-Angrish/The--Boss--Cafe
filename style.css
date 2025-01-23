@@ -60,6 +60,18 @@ li {
     display: none;
 }
 
+@media screen and (max-width:455px) {
+    #Boss {
+        font-size: 2rem;
+    }
+}
+
+@media screen and (max-width:994px) {
+    #lOGO {
+        display: none;
+    }
+}
+
 @media screen and (max-width:650px) {
 
     body {
@@ -77,15 +89,6 @@ li {
         width: 100vw;
         margin: 0;
         padding: 0;
-    }
-
-    .main img {
-        width: 100vw;
-    }
-
-    #LOGO {
-        width: 100vw;
-        margin-left: 0rem;
     }
 
 }
