@@ -4,9 +4,7 @@ console.log(button);
 button.onclick = function redirectToImage() {
     // Array of image URLs
     var imageUrls = [
-        'img/menupage3.png.jpg',
-        'img/menupage2.png.jpg',
-        'img/menupage1.png.jpg',
+        'img/price details.jpg'
     ];
 
     // Get a random index
