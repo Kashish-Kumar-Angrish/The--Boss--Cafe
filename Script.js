@@ -5,7 +5,7 @@ button.onclick = function redirectToImage() {
     // Array of image URLs
     var imageUrls = [
         'img/price details.jpg'
-    ];
+    ]
 
     // Get a random index
     var randomIndex = Math.floor(Math.random() * imageUrls.length);
@@ -15,6 +15,7 @@ button.onclick = function redirectToImage() {
 };
 
 let contact = document.querySelector("#contact-btn");
+
 contact.onclick = function directtoimg() {
     window.location.href = "img/WhatsApp number.jpg";
 }
