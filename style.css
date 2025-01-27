@@ -123,12 +123,6 @@ body {
     display: flex;
     justify-content: space-between;
   }
-
-  .main {
-    width: 100vw;
-    margin: 0;
-    padding: 0;
-  }
 }
 
 
@@ -195,6 +189,22 @@ main {
   bottom: 18rem;
   left: 4rem;
   font-size: 1.2rem;
+}
+
+@media screen and (max-width: 1080px) {
+  .main {
+    margin: 0;
+    padding: 0;
+  }
+
+  #name {
+    font-size: 3rem;
+  }
+
+  .motive p {
+    font-size: 1rem;
+  }
+
 }
 
 .services {
