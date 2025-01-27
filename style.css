@@ -214,6 +214,7 @@ main {
   border-radius: 10px;
   padding-left: 1rem;
   padding-bottom: 1rem;
+  padding-top: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
