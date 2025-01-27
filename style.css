@@ -75,7 +75,7 @@ body {
 .toggle-button .bar {
   height: 3px;
   width: 100%;
-  background-color: #fff;
+  background-color: var(--text-color);
   border-radius: 10px;
 }
 
@@ -321,7 +321,7 @@ main {
   padding: 1rem;
   border-radius: 10px;
   background-color: var(--Heading-color);
-  color: white;
+  color: var(--text-color);
   font-size: 1.5rem;
 }
 
@@ -342,7 +342,7 @@ main {
   }
 
   .menudetails1 {
-    border: 1px solid black;
+    border: 1px solid white;
     width: 90vw;
     margin-left: 4rem;
     border-radius: 20px;
@@ -389,19 +389,19 @@ main {
 
 .grid1 {
   padding-top: 1rem;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
 }
 
 .grid2 {
   padding-top: 1rem;
-  border: 1px solid black;
+  border: 1px solid wheat;
   border-radius: 10px;
 }
 
 .grid3 {
   padding-top: 1rem;
-  border: 1px solid black;
+  border: 1px solid white;
   border-radius: 10px;
 }
 
@@ -473,7 +473,7 @@ main {
   .grid2,
   .grid3 {
     border: none;
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     width: 90vw;
     margin-left: 10rem;
     box-sizing: border-box;
@@ -606,7 +606,7 @@ main {
   }
 
   .story-grid1-2-3 {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid white;
     padding-bottom: 1rem;
     padding-left: 0rem;
   }
@@ -921,7 +921,7 @@ main {
   padding: 1rem;
   border-radius: 10px;
   background-color: var(--Heading-color);
-  color: white;
+  color: var(--text-color);
   font-size: 1.5rem;
 }
 
