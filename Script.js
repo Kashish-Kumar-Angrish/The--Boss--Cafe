@@ -19,3 +19,7 @@ let contact = document.querySelector("#contact-btn");
 contact.onclick = function directtoimg() {
     window.location.href = "img/WhatsApp number.jpg";
 }
+function toggleMenu() {
+    var navbarLinks = document.getElementById('navbarLinks');
+    navbarLinks.classList.toggle('active');
+}
