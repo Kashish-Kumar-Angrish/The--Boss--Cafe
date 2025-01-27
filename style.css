@@ -82,7 +82,6 @@ body {
 @media (max-width: 768px) {
   .navbar {
     display: flex;
-    flex-direction: ;
   }
 
   .toggle-button {
