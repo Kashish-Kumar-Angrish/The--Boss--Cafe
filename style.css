@@ -239,6 +239,10 @@ main {
     display: flex;
     flex-direction: column;
   }
+
+  .serv-g1 {
+    width: 120%;
+  }
 }
 
 .menu {
