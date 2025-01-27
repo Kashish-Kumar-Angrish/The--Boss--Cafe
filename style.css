@@ -82,6 +82,7 @@ body {
 @media (max-width: 768px) {
   .navbar {
     display: flex;
+    width: 120%;
   }
 
   .toggle-button {
@@ -91,6 +92,7 @@ body {
   .gap {
     display: flex;
     align-items: center;
+    margin-left: 10rem;
   }
 
   .navbar-links {
